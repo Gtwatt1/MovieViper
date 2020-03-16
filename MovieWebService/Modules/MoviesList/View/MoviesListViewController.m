@@ -24,14 +24,9 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-
     [self.output didTriggerViewReadyEvent];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-
-
-}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return  filmList.count;

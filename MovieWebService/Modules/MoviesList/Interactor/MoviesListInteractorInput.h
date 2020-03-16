@@ -10,6 +10,5 @@
 #import <UIKit/UIKit.h>
 
 @protocol MoviesListInteractorInput <NSObject>
-- (void)setData:(NSArray *)films;
--(void)fetchFilms;
+- (void)fetchFilms;
 @end

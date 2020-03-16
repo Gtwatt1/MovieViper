@@ -18,14 +18,7 @@
 
 
 
-#pragma mark - MoviesListInteractorInput
 
-- (void)setData:(NSArray *)films1 {
-   
-    
-    
-
-}
 
 - (void)fetchFilms{
     MovieFile *movieFile = [MovieFile new];
@@ -33,6 +26,9 @@
         [self.output didRetrieveFilm:film];
     }];
 }
+
+
+
 
 
 @end

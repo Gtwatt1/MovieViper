@@ -14,7 +14,7 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
     public var director: Director!
     public var cast: [Actor]!
     
-    let labelSpacing: CGFloat = 16
+    let labelSpacing: CGFloat = 15
     var directorName = UILabel()
     var directorNameValue = UILabel()
     var actorNameLiteral = UILabel()
@@ -28,17 +28,20 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewIsReady()
-        setupView()
 
     }
 
     
-    func setupView(){
+    func setupViews(){
         view.backgroundColor = .white
         tapToShowMore.text = "Tap here to show more"
         directorNameValue.text = director.name;
         [actorName, actorScreenName, actorNameLiteral, actorScreenNameLiteral].forEach{
             $0.isHidden = true
+        }
+        
+        [directorNameValue, actorName, actorScreenName].forEach {
+            $0.font = UIFont.systemFont(ofSize: 14)
         }
         tapToShowMore.delegate = self
         directorName.text = "Director Name"
@@ -66,7 +69,7 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
         tapToShowMore.topAnchor.constraint(equalTo: directorNameValue.bottomAnchor, constant: labelSpacing).isActive = true
         
          actorNameLiteral.leftAnchor.constraint(equalTo: view.leftAnchor, constant : 20).isActive = true
-         actorNameLiteral.topAnchor.constraint(equalTo: tapToShowMore.bottomAnchor, constant: labelSpacing).isActive = true
+         actorNameLiteral.topAnchor.constraint(equalTo: tapToShowMore.topAnchor).isActive = true
         
         actorName.leftAnchor.constraint(equalTo: view.leftAnchor, constant : 20).isActive = true
         actorName.topAnchor.constraint(equalTo: actorNameLiteral.bottomAnchor, constant: labelSpacing).isActive = true
@@ -78,14 +81,18 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
         actorScreenName.topAnchor.constraint(equalTo: actorScreenNameLiteral.bottomAnchor, constant: labelSpacing).isActive = true
         
     }
+    
+    func showMoreFilmDetails(){
+        [actorName, actorScreenName, actorNameLiteral, actorScreenNameLiteral].forEach{
+                   $0.isHidden = false
+         }
+        tapToShowMore.isHidden = true
+    }
 
     // MARK: DetailsViewInput
 
     func didReceiveTouch() {
-         [actorName, actorScreenName, actorNameLiteral, actorScreenNameLiteral].forEach{
-                   $0.isHidden = false
-         }
-        tapToShowMore.isHidden = true
+        output.didTapReadMore()
     }
 
 }

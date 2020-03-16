@@ -8,8 +8,7 @@
 
 import XCTest
 
-@testable
-import MovieWebService
+@testable import MovieWebService
 
 class DetailsModuleBuilderTests: XCTestCase {
 

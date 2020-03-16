@@ -8,4 +8,6 @@
 
 protocol DetailsViewInput: class {
 
+    func setupViews()
+    func showMoreFilmDetails()
 }

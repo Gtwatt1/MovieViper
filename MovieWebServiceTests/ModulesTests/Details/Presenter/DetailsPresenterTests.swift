@@ -52,6 +52,14 @@ class DetailsPresenterTests: XCTestCase {
     }
 
     class MockView: DetailsViewInput {
+        func setupViews() {
+            
+        }
+        
+        func showMoreFilmDetails() {
+            
+        }
+        
 		
     }
 

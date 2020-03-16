@@ -14,7 +14,7 @@
 @protocol MoviesListInteractorInput;
 @protocol MoviesListRouterInput;
 
-@interface MoviesListPresenter : NSObject <MoviesListModuleInput, MoviesListViewOutput, MoviesListInteractorOutput>
+@interface MoviesListPresenter : NSObject <MoviesListViewOutput, MoviesListInteractorOutput>
 
 @property (nonatomic, strong) id<MoviesListViewInput> view;
 @property (nonatomic, strong) id<MoviesListInteractorInput> interactor;

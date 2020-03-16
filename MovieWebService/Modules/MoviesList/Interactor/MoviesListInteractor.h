@@ -11,9 +11,7 @@
 
 @protocol MoviesListInteractorOutput;
 
-@interface MoviesListInteractor : NSObject <MoviesListInteractorInput, UITableViewDataSource, UITableViewDelegate>
+@interface MoviesListInteractor : NSObject <MoviesListInteractorInput>
 
 @property (nonatomic, weak) id<MoviesListInteractorOutput> output;
-@property (nonatomic, strong) IBOutlet CellTableViewCell *movieCell;
-
 @end

@@ -37,6 +37,7 @@
 		742C643F1E9CCDB600B8E327 /* TappableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C643E1E9CCDB600B8E327 /* TappableLabel.m */; };
 		8FB46F22241F55B000692510 /* MovieFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB46F21241F55B000692510 /* MovieFile.m */; };
 		8FB46F24241F62EF00692510 /* DisplayFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB46F23241F62EF00692510 /* DisplayFilm.swift */; };
+		8FD148262420065700E23518 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD148252420065700E23518 /* libOCMock.a */; };
 		90DA19CFA1BC8F9001F66546 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6A3D5C79D0DBE63886184F /* DetailsRouter.swift */; };
 		9719FBB21151E7A3416388B9 /* Pods_MovieWebServiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CE2FAEE24F90800F730771 /* Pods_MovieWebServiceUITests.framework */; };
 		98DCD8E1A77375C8D2741246 /* Pods_MovieWebServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570604DAB816B8F590CE6A19 /* Pods_MovieWebServiceTests.framework */; };
@@ -130,6 +131,19 @@
 		8FB46F20241F55B000692510 /* MovieFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieFile.h; sourceTree = "<group>"; };
 		8FB46F21241F55B000692510 /* MovieFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieFile.m; sourceTree = "<group>"; };
 		8FB46F23241F62EF00692510 /* DisplayFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFilm.swift; sourceTree = "<group>"; };
+		8FD148192420065700E23518 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		8FD1481A2420065700E23518 /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		8FD1481B2420065700E23518 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		8FD1481C2420065700E23518 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		8FD1481D2420065700E23518 /* OCMVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMVerifier.h; sourceTree = "<group>"; };
+		8FD1481E2420065700E23518 /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		8FD1481F2420065700E23518 /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		8FD148202420065700E23518 /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		8FD148212420065700E23518 /* OCMQuantifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMQuantifier.h; sourceTree = "<group>"; };
+		8FD148222420065700E23518 /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		8FD148232420065700E23518 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		8FD148242420065700E23518 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		8FD148252420065700E23518 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		9295F7F0E6B0707E7F8DECE8 /* DetailsModuleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsModuleBuilder.swift; sourceTree = "<group>"; };
 		96D852298DA083746EF65D02 /* DetailsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DetailsViewOutput.swift; sourceTree = "<group>"; };
 		A04472FFCF6FDE683F18F480 /* Pods-MovieWebServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieWebServiceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieWebServiceTests/Pods-MovieWebServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98DCD8E1A77375C8D2741246 /* Pods_MovieWebServiceTests.framework in Frameworks */,
+				8FD148262420065700E23518 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +321,7 @@
 		742C63DC1E9C750600B8E327 = {
 			isa = PBXGroup;
 			children = (
+				8FD148172420064500E23518 /* TestHelper */,
 				742C63E71E9C750600B8E327 /* MovieWebService */,
 				742C64011E9C750700B8E327 /* MovieWebServiceTests */,
 				742C640C1E9C750700B8E327 /* MovieWebServiceUITests */,
@@ -458,6 +474,34 @@
 				A9CE2FAEE24F90800F730771 /* Pods_MovieWebServiceUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FD148172420064500E23518 /* TestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8FD148252420065700E23518 /* libOCMock.a */,
+				8FD148182420065600E23518 /* OCMock */,
+			);
+			path = TestHelper;
+			sourceTree = "<group>";
+		};
+		8FD148182420065600E23518 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				8FD148192420065700E23518 /* OCMockObject.h */,
+				8FD1481A2420065700E23518 /* OCMMacroState.h */,
+				8FD1481B2420065700E23518 /* OCMock.h */,
+				8FD1481C2420065700E23518 /* NSNotificationCenter+OCMAdditions.h */,
+				8FD1481D2420065700E23518 /* OCMVerifier.h */,
+				8FD1481E2420065700E23518 /* OCMFunctions.h */,
+				8FD1481F2420065700E23518 /* OCMStubRecorder.h */,
+				8FD148202420065700E23518 /* OCMRecorder.h */,
+				8FD148212420065700E23518 /* OCMQuantifier.h */,
+				8FD148222420065700E23518 /* OCMLocation.h */,
+				8FD148232420065700E23518 /* OCMConstraint.h */,
+				8FD148242420065700E23518 /* OCMArg.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 		A2784FEB2219C1BD4876305D /* View */ = {
@@ -971,11 +1015,21 @@
 			baseConfigurationReference = A04472FFCF6FDE683F18F480 /* Pods-MovieWebServiceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestHelper\"";
 				INFOPLIST_FILE = MovieWebServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestHelper",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = agodatest.MovieWebServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieWebService.app/MovieWebService";
 			};
 			name = Debug;
@@ -985,11 +1039,21 @@
 			baseConfigurationReference = 7A2853701712C15EEF299728 /* Pods-MovieWebServiceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestHelper\"";
 				INFOPLIST_FILE = MovieWebServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestHelper",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = agodatest.MovieWebServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieWebService.app/MovieWebService";
 			};
 			name = Release;

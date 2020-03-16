@@ -7,17 +7,23 @@
 //
 
 class DetailsPresenter: DetailsModuleInput, DetailsViewOutput, DetailsInteractorOutput {
+    
+    
 
     weak var view: DetailsViewInput!
     var interactor: DetailsInteractorInput!
     var router: DetailsRouterInput!
+    
 
     // MARK: - DetailsViewOutput
     
     func viewIsReady() {
-
+        view.setupViews()
     }
     
+    func didTapReadMore() {
+        view.showMoreFilmDetails()
+    }
     // MARK: - DetailsInteractorOutput
     
     

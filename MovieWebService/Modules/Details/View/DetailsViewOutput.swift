@@ -9,5 +9,5 @@
 protocol DetailsViewOutput {
 
     func viewIsReady()
-
+    func didTapReadMore()
 }
