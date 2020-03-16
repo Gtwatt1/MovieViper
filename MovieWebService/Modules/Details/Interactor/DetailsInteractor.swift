@@ -7,11 +7,24 @@
 //
 
 class DetailsInteractor: DetailsInteractorInput {
+    
+    var director: Director!
+    
+    var cast: [Actor]!
+    
 
     weak var output: DetailsInteractorOutput!
 
     // MARK: - DetailsInteractorInput
     
+    func getDirector() {
+        output.didGetDirector(director)
+    }
+    
+    func getCast()  {
+        output.didGetCast(cast)
+
+    }
     
     
 }

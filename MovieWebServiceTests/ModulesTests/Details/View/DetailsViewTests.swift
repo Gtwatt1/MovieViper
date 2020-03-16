@@ -20,7 +20,6 @@ class DetailsViewTests: XCTestCase {
         super.setUp()
 
         output = MockOutput()
-		
         viewController = DetailsViewController()
         viewController.output = output
     }
@@ -33,19 +32,56 @@ class DetailsViewTests: XCTestCase {
     }
 
     func testIfViewIsReady() {
-        //given
-        let mock = MockOutput()
 
         //when 
-        mock.viewIsReady()
+        viewController.viewDidLoad()
 
         //then
-        XCTAssertTrue(mock.viewIsReadyDidCall)
+        XCTAssertTrue(output.viewIsReadyDidCall)
+    }
+    
+    func testDisplayActor(){
+        
+        let actorData : [String: Any] = [ "dateOfBirth": -436147200,
+                            "nominated": 1,
+                            "name": "Bryan Cranston",
+                            "screenName": "Jack Donnell",
+                            "biography": "Bryan Lee Cranston is an American actor, voice actor, writer and director."
+                        ]
+        let actor = Actor(data: actorData)
+        viewController.displayCast([actor!])
+        
+        XCTAssertEqual(viewController.actorName.text, "Bryan Cranston")
+        XCTAssertEqual(viewController.actorScreenName.text, "Jack Donnell")
+    }
+    
+    func testDisplayDirector(){
+        
+        let actorData : [String: Any] = [ "dateOfBirth": 82684800,
+                    "nominated": 1,
+                    "name": "Ben Affleck",
+                    "biography": "Benjamin Geza Affleck was born on August 15, 1972 in Berkeley, California, USA but raised in Cambridge, Massachusetts, USA."
+                    ]
+        let director = Director(data: actorData)
+        viewController.displayDirector(director!)
+        
+        XCTAssertEqual(viewController.directorNameValue.text, "Ben Affleck")
+    }
+    
+    func testShowMoreIsClicked(){
+        viewController.didReceiveTouch()
+        XCTAssertTrue(output.tapMoreDidClick)
     }
 
     // MARK: - Mock
 
     class MockOutput: DetailsViewOutput {
+        func didTapReadMore() {
+            tapMoreDidClick = true
+        }
+        
+        var tapMoreDidClick: Bool = false
+
         var viewIsReadyDidCall: Bool = false
 
         func viewIsReady() {
@@ -53,4 +89,6 @@ class DetailsViewTests: XCTestCase {
         }
 		
     }
+    
+    
 }

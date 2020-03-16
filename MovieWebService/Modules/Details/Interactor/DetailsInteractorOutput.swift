@@ -7,5 +7,6 @@
 //
 
 protocol DetailsInteractorOutput: class {
-
+    func didGetDirector(_ director : Director)
+    func didGetCast(_ cast : [Actor])
 }

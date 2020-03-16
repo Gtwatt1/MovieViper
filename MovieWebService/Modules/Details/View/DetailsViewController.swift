@@ -9,6 +9,8 @@
 import UIKit
 
 class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDelegate {
+    
+    
 
     var output: DetailsViewOutput!
     public var director: Director!
@@ -35,7 +37,6 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
     func setupViews(){
         view.backgroundColor = .white
         tapToShowMore.text = "Tap here to show more"
-        directorNameValue.text = director.name;
         [actorName, actorScreenName, actorNameLiteral, actorScreenNameLiteral].forEach{
             $0.isHidden = true
         }
@@ -49,9 +50,7 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
         actorScreenNameLiteral.text = "Actor Screen Name"
 
         
-        let actor: Actor = cast[0]
-        actorName.text = actor.name;
-        actorScreenName.text = actor.screenName;
+        
         [directorName, directorNameValue, tapToShowMore, actorName, actorScreenName, actorNameLiteral, actorScreenNameLiteral].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
             $0.textColor = .black
@@ -84,7 +83,7 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
     
     func showMoreFilmDetails(){
         [actorName, actorScreenName, actorNameLiteral, actorScreenNameLiteral].forEach{
-                   $0.isHidden = false
+                $0.isHidden = false
          }
         tapToShowMore.isHidden = true
     }
@@ -95,4 +94,14 @@ class DetailsViewController: UIViewController, DetailsViewInput, TappableLabelDe
         output.didTapReadMore()
     }
 
+    
+    func displayDirector(_ director: Director) {
+        directorNameValue.text = director.name;
+    }
+    
+    func displayCast(_ cast: [Actor]) {
+        let actor: Actor = cast[0]
+        actorName.text = actor.name;
+        actorScreenName.text = actor.screenName;
+    }
 }

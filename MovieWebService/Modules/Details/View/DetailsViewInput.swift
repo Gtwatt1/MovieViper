@@ -10,4 +10,6 @@ protocol DetailsViewInput: class {
 
     func setupViews()
     func showMoreFilmDetails()
+    func displayDirector(_ director : Director)
+    func displayCast(_ cast : [Actor])
 }

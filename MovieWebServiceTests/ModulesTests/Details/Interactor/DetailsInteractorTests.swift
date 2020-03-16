@@ -32,9 +32,32 @@ class DetailsInteractorTests: XCTestCase {
         super.tearDown()
     }
 
+    func testDidAskPresenterToDisplayDirector(){
+        output.didGetDirector(Director())
+        XCTAssertTrue(output.didPresentDirector)
+
+    }
+    
+    func testDidAskPresenterToDisplayCast(){
+        output.didGetCast([Actor()])
+        XCTAssertTrue(output.didPresentCast)
+
+    }
     // MARK: - Mock
 
     class MockOutput: DetailsInteractorOutput {
+        
+        var didPresentDirector = false
+        var didPresentCast = false
+
+        func didGetDirector(_ director: Director) {
+            didPresentDirector = true
+        }
+        
+        func didGetCast(_ cast: [Actor]) {
+            didPresentCast = true
+        }
+        
 
     }
 

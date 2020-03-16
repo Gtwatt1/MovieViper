@@ -7,9 +7,7 @@
 //
 
 class DetailsPresenter: DetailsModuleInput, DetailsViewOutput, DetailsInteractorOutput {
-    
-    
-
+   
     weak var view: DetailsViewInput!
     var interactor: DetailsInteractorInput!
     var router: DetailsRouterInput!
@@ -19,6 +17,8 @@ class DetailsPresenter: DetailsModuleInput, DetailsViewOutput, DetailsInteractor
     
     func viewIsReady() {
         view.setupViews()
+        interactor.getCast()
+        interactor.getDirector()
     }
     
     func didTapReadMore() {
@@ -26,6 +26,12 @@ class DetailsPresenter: DetailsModuleInput, DetailsViewOutput, DetailsInteractor
     }
     // MARK: - DetailsInteractorOutput
     
-    
+    func didGetDirector(_ director: Director) {
+        view.displayDirector(director)
+    }
+       
+   func didGetCast(_ cast: [Actor]) {
+        view.displayCast(cast)
+   }
     
 }

@@ -41,9 +41,57 @@ class DetailsPresenterTests: XCTestCase {
         super.tearDown()
     }
 
+    func testShouldGetFilmDetails(){
+        presenter.viewIsReady()
+        
+        XCTAssertTrue(interactor.didFetchCast)
+        XCTAssertTrue(interactor.didFetchDirector)
+
+    }
+    
+    func testShouldSetupView(){
+         presenter.viewIsReady()
+        
+        XCTAssertTrue(view.displayedViews)
+
+    }
+    
+    func testShouldDisplayDirector(){
+        presenter.didGetDirector(Director())
+        XCTAssertTrue(view.displayedDirector)
+
+    }
+    
+    func testShouldDisplayCast(){
+        presenter.didGetCast([Actor()])
+        XCTAssertTrue(view.displayedCast)
+
+        
+    }
+    
+    func testShouldShowMore(){
+        presenter.didTapReadMore()
+        XCTAssertTrue(view.displayedMoreFilmDetails)
+
+    }
     // MARK: - Mock
 
     class MockInteractor: DetailsInteractorInput {
+        var director: Director!
+        
+        var cast: [Actor]!
+        
+        var didFetchDirector = false
+        var didFetchCast = false
+        
+        func getDirector() {
+            didFetchDirector = true
+        }
+        
+        func getCast() {
+            didFetchCast = true
+        }
+        
 
     }
 
@@ -52,12 +100,26 @@ class DetailsPresenterTests: XCTestCase {
     }
 
     class MockView: DetailsViewInput {
+        
+        var displayedViews = false
+        var displayedDirector = false
+        var displayedCast = false
+        var displayedMoreFilmDetails = false
+        
+        func displayDirector(_ director: Director) {
+            displayedDirector = true
+        }
+        
+        func displayCast(_ cast: [Actor]) {
+            displayedCast = true
+        }
+        
         func setupViews() {
-            
+            displayedViews = true
         }
         
         func showMoreFilmDetails() {
-            
+            displayedMoreFilmDetails = true
         }
         
 		

@@ -7,5 +7,10 @@
 //
 
 protocol DetailsInteractorInput {
+    var director: Director! { get  }
+    var cast: [Actor]! {get}
+    
+    func getDirector()
+    func getCast() 
 
 }

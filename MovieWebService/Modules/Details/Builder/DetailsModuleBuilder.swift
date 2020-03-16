@@ -24,11 +24,11 @@ import UIKit
 
         let interactor = DetailsInteractor()
         interactor.output = presenter
-
+        interactor.director = film.director
+        interactor.cast = film.cast
         presenter.interactor = interactor
         viewController.output = presenter
-        viewController.director = film.director
-        viewController.cast = film.cast
+        
 
         return viewController
     }
