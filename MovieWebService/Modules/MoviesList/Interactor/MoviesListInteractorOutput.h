@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Film.h"
 
 @protocol MoviesListInteractorOutput <NSObject>
+
+- (void)didRetrieveFilm:(Film *)film;
 
 @end

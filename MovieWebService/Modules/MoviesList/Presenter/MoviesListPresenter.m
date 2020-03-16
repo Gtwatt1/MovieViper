@@ -11,6 +11,7 @@
 #import "MoviesListViewInput.h"
 #import "MoviesListInteractorInput.h"
 #import "MoviesListRouterInput.h"
+#import "MovieWebService-Swift.h"
 
 @implementation MoviesListPresenter {
     NSArray *films;
@@ -21,15 +22,56 @@
 
 - (void)didTriggerViewReadyEvent {
 	[self.view setupInitialState];
+    [self.interactor fetchFilms];
 }
 
-- (void)setViewForSetup:(UIView *)view {
-    [self.interactor setViewForSetup:view];
-}
 
-- (void)setData:(Film *)film {
+- (void)didRetrieveFilm:(Film *)film{
+    DisplayFilm *displayFilm = [self filmToDisplayFilm:film];
+    NSArray *displayFilms = [NSArray arrayWithObject:displayFilm];
     films = [NSArray arrayWithObject:film];
-    [self.interactor setData:films];
+    [self.view showFilms:displayFilms];
+}
+
+- (DisplayFilm *)filmToDisplayFilm:(Film *)film{
+    DisplayFilm *displayFilm = [[DisplayFilm alloc] init];;
+    displayFilm.name = film.name;
+
+    NSString* dateText;
+    dateText = [self.dateFormatter stringFromDate:film.releaseDate];
+    displayFilm.date = dateText;
+    NSString *filmRatingText;
+    switch (film.filmRating) {
+        case G:
+            filmRatingText = @"G";
+        case PG:
+            filmRatingText = @"PG";
+        case PG13:
+            filmRatingText = @"PG13";
+        case R:
+            filmRatingText = @"R";
+        default:
+            break;
+    }
+    displayFilm.ratingString = filmRatingText;
+    displayFilm.rating = [[NSNumber numberWithDouble:film.rating] stringValue];
+    return displayFilm;
+}
+
+- (NSDateFormatter*)dateFormatter
+{
+    if (_dateFormatter == nil)
+    {
+        _dateFormatter = [[NSDateFormatter alloc] init];
+        [_dateFormatter setDateFormat:@"MMM dd, yyyy"];
+    }
+    
+    return _dateFormatter;
+}
+
+- (void)showFilmDetails:(NSInteger)index{
+    Film *film = [films objectAtIndex:index];
+    [self.router showFilmDetails:film];
 }
 
 @end

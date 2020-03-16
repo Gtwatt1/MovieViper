@@ -11,5 +11,6 @@
 @protocol MoviesListViewInput <NSObject>
 
 - (void)setupInitialState;
+- (void)showFilms:(NSArray *)films;
 
 @end

@@ -8,9 +8,16 @@
 
 #import "MoviesListRouter.h"
 #import <UIKit/UIKit.h>
+#import "MovieWebService-Swift.h"
+
 
 @implementation MoviesListRouter
 
 #pragma mark - MoviesListRouterInput
+
+- (void)showFilmDetails:(Film *)film {
+    DetailsModuleBuilder *builder = [DetailsModuleBuilder new];
+    [self.viewController.navigationController pushViewController:[builder buildWith:film] animated:YES];
+}
 
 @end

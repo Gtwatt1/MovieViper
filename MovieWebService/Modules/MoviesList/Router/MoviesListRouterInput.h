@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Film.h"
 
 @protocol MoviesListRouterInput <NSObject>
+- (void)showFilmDetails:(Film *)film;
 
 @end

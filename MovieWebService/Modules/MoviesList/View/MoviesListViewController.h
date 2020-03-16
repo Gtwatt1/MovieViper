@@ -13,7 +13,7 @@
 
 @protocol MoviesListViewOutput;
 
-@interface MoviesListViewController : UIViewController <MoviesListViewInput> {
+@interface MoviesListViewController : UIViewController <MoviesListViewInput, UITableViewDataSource,UITableViewDelegate> {
     Film *film;
 }
 
