@@ -103,7 +103,6 @@
     XCTAssertEqual(displayFilm.name, film.name);
     XCTAssertTrue([displayFilm.rating isEqualToString: @"7.8"]);
     XCTAssertTrue([displayFilm.ratingString isEqualToString: @"R"]);
-    NSLog(@"mad %@",displayFilm.date);
     XCTAssertTrue([displayFilm.date isEqualToString: @"Oct 12, 2012"]);
 
     

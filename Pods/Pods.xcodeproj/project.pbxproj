@@ -7,54 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
-		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
-		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
-		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
-		2AB1156810C27F33FC32833E0B91F141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		2DBA92456B1C655718AAC9B9FD3D6428 /* Pods-MovieWebServiceUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F40E6898596566B2499AD619135D2D /* Pods-MovieWebServiceUITests-dummy.m */; };
-		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CF07A30799FEF01F95E973582FE1172 /* Pods-MovieWebService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA294919710C4608167A196FAB9DE6A /* Pods-MovieWebService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58B7D6F30F22F513B35C54C9B5723FF7 /* Pods-MovieWebService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3863C91CA3134FDE12CEC41B2B1C58CB /* Pods-MovieWebService-dummy.m */; };
-		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
-		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
-		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
-		862D7E0784C7C5A63CB21CFABAAFB022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A9FFA61C07060FEFDF9AF7A6723CB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
-		AFB194E415DD693CF003D3B6C4AC8866 /* Pods-MovieWebServiceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3A6E0A40B1981BE1CA6FD7CF45C683 /* Pods-MovieWebServiceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
-		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		D1417C7A61B8EE77E6D9EA162CB34882 /* Pods-MovieWebServiceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CBD1F655E478A66389FDAF71EAB729 /* Pods-MovieWebServiceTests-dummy.m */; };
-		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
-		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD43C87B3BDCAC965E49FF747EFF7F7A /* Pods-MovieWebServiceUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2498FDC36A4284EC37BBA02259833E /* Pods-MovieWebServiceUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		149B3CFEF41FAE48B6E0518CB49D81A9 /* Pods-MovieWebService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 394003C5282C46BAB453080B6FADD811 /* Pods-MovieWebService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DBA92456B1C655718AAC9B9FD3D6428 /* Pods-MovieWebServiceUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 854885FC02FD60CBCD1BD5CC47D457CB /* Pods-MovieWebServiceUITests-dummy.m */; };
+		3B5F443BAA33FBDF455E1192838E0E74 /* Pods-MovieWebService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D8255C85123DBB032E1B4E468D83C8 /* Pods-MovieWebService-dummy.m */; };
+		71EF9501C75D82D3F6C46D553B2DD17B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		862D7E0784C7C5A63CB21CFABAAFB022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9A9FFA61C07060FEFDF9AF7A6723CB62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AFB194E415DD693CF003D3B6C4AC8866 /* Pods-MovieWebServiceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A906C812098E32925DC2BE2B17CD3E34 /* Pods-MovieWebServiceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1417C7A61B8EE77E6D9EA162CB34882 /* Pods-MovieWebServiceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3C5FCFBEC3A5026CA2F3DBF7EFCD3 /* Pods-MovieWebServiceTests-dummy.m */; };
+		FD43C87B3BDCAC965E49FF747EFF7F7A /* Pods-MovieWebServiceUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA93C86893F2A209CC511E6722269EF5 /* Pods-MovieWebServiceUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1916749027B47526304C6E3ED155074B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
 		9ECD8ED45C6EA085AFF399CD21F2D6B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -72,69 +36,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		05F147527080B2F427B55CBFA537C0A0 /* Pods-MovieWebServiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceUITests.release.xcconfig"; sourceTree = "<group>"; };
-		06F89E696021163374D319E12A0934C4 /* Pods-MovieWebServiceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		0A381A24BC831E30974E9706AF0DBAC7 /* Pods-MovieWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebService.debug.xcconfig"; sourceTree = "<group>"; };
-		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		12F40E6898596566B2499AD619135D2D /* Pods-MovieWebServiceUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieWebServiceUITests-dummy.m"; sourceTree = "<group>"; };
-		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		17FEB1B077A738F603B42A371C3F0642 /* Pods-MovieWebService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieWebService.modulemap"; sourceTree = "<group>"; };
-		1DEBF839EF96B1A913D9C87CA5090909 /* Pods-MovieWebServiceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieWebServiceTests.modulemap"; sourceTree = "<group>"; };
-		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AD915BB4974CDA6A797F0E83C810FB3 /* Pods-MovieWebService-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovieWebService-frameworks.sh"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		3650702A074359FE136FDC6A3E7ADB4E /* Pods-MovieWebServiceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieWebServiceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		3863C91CA3134FDE12CEC41B2B1C58CB /* Pods-MovieWebService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieWebService-dummy.m"; sourceTree = "<group>"; };
-		389EB2F7B600BDC17BC900D27CD441C0 /* Pods-MovieWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebService.release.xcconfig"; sourceTree = "<group>"; };
-		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4393EE17B78CC9F08F0E7D1A93814F0D /* Pods-MovieWebServiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		03BBCEC22F7A1D4DA3D12B92CE0A7E09 /* Pods-MovieWebService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieWebService-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1338CB8C2D7281A382F95ABFF78F2B64 /* Pods-MovieWebServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		1555E6942D2CEA5AB8602538D3EF6E1A /* Pods-MovieWebService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieWebService.modulemap"; sourceTree = "<group>"; };
+		15968D3F7AEA01D6C8C04758279AC613 /* Pods-MovieWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebService.debug.xcconfig"; sourceTree = "<group>"; };
+		1AD62D0C34C541B97276258A4762AE4E /* Pods-MovieWebServiceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieWebServiceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33B37BBF3FA9FF8D38B9B9BB76FA68B4 /* Pods-MovieWebServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		394003C5282C46BAB453080B6FADD811 /* Pods-MovieWebService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieWebService-umbrella.h"; sourceTree = "<group>"; };
 		4DE3D65F63C13E53D064F2EF8E506889 /* Pods_MovieWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieWebService.framework; path = "Pods-MovieWebService.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		52AABAD590DC81059F1BEC4B13DA8DE4 /* Pods_MovieWebServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieWebServiceTests.framework; path = "Pods-MovieWebServiceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		547281D403FADC65241697CAFBD0C4CD /* Pods-MovieWebService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebService-acknowledgements.plist"; sourceTree = "<group>"; };
-		5FA294919710C4608167A196FAB9DE6A /* Pods-MovieWebService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieWebService-umbrella.h"; sourceTree = "<group>"; };
-		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		660537D0791111B055F9EC7306C0FAB3 /* Pods-MovieWebServiceUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceUITests-Info.plist"; sourceTree = "<group>"; };
-		86D02E0702971C69596130EA08EA6445 /* Pods-MovieWebService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieWebService-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		91328DE17D7F96548422168CDB60F867 /* Pods-MovieWebServiceUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9140E3FAD290A3FACFF48ED0A6D28405 /* Pods-MovieWebServiceTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceTests-Info.plist"; sourceTree = "<group>"; };
-		95FED91C0AFF4E3F659A003564BEE835 /* Pods-MovieWebServiceUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieWebServiceUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		61E3C5FCFBEC3A5026CA2F3DBF7EFCD3 /* Pods-MovieWebServiceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieWebServiceTests-dummy.m"; sourceTree = "<group>"; };
+		7293F42937DDFF57694F9FBCBE4F3345 /* Pods-MovieWebServiceTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceTests-Info.plist"; sourceTree = "<group>"; };
+		7A5855425DAD2983EEA3E5EC20A98CAD /* Pods-MovieWebServiceUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieWebServiceUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		854885FC02FD60CBCD1BD5CC47D457CB /* Pods-MovieWebServiceUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieWebServiceUITests-dummy.m"; sourceTree = "<group>"; };
+		85D8255C85123DBB032E1B4E468D83C8 /* Pods-MovieWebService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieWebService-dummy.m"; sourceTree = "<group>"; };
+		8C787AE12F82AB44DFB22E1BDBCDA760 /* Pods-MovieWebServiceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieWebServiceTests.modulemap"; sourceTree = "<group>"; };
+		984B040FC54A72EE5DE25D4F775B088C /* Pods-MovieWebServiceUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceUITests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FD10C0D65EF5F9E7113680CCFD34765 /* Pods_MovieWebServiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieWebServiceUITests.framework; path = "Pods-MovieWebServiceUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		A1EFBAE0685F8582815B1CB9A9CAE8DE /* Pods-MovieWebServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		CB925F5F92CA2A4FF7E94A2671912D66 /* Pods-MovieWebService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebService-Info.plist"; sourceTree = "<group>"; };
-		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D970DAD2764A50C50AD63DF843065C2B /* Pods-MovieWebServiceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieWebServiceUITests.modulemap"; sourceTree = "<group>"; };
-		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		E262D2EB2AA4D90DF4CDCE536C70CEAD /* Pods-MovieWebServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceTests.release.xcconfig"; sourceTree = "<group>"; };
-		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		EC2498FDC36A4284EC37BBA02259833E /* Pods-MovieWebServiceUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieWebServiceUITests-umbrella.h"; sourceTree = "<group>"; };
-		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		F2CBD1F655E478A66389FDAF71EAB729 /* Pods-MovieWebServiceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovieWebServiceTests-dummy.m"; sourceTree = "<group>"; };
-		FD3A6E0A40B1981BE1CA6FD7CF45C683 /* Pods-MovieWebServiceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieWebServiceTests-umbrella.h"; sourceTree = "<group>"; };
-		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		A906C812098E32925DC2BE2B17CD3E34 /* Pods-MovieWebServiceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieWebServiceTests-umbrella.h"; sourceTree = "<group>"; };
+		B733E57E53CB0C9936D3D97E30BD388F /* Pods-MovieWebService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebService-Info.plist"; sourceTree = "<group>"; };
+		B99AF93BC5271A427B5313BC4761A3B3 /* Pods-MovieWebServiceUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA93C86893F2A209CC511E6722269EF5 /* Pods-MovieWebServiceUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieWebServiceUITests-umbrella.h"; sourceTree = "<group>"; };
+		BC5041AAEABFBD71BB88B821FC83F956 /* Pods-MovieWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebService.release.xcconfig"; sourceTree = "<group>"; };
+		BF0732019616B17AC0CE99865E4E6AB7 /* Pods-MovieWebService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebService-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA86095DAFB0C99145A814B0C0AEB5DC /* Pods-MovieWebServiceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovieWebServiceUITests.modulemap"; sourceTree = "<group>"; };
+		DB2E4F972D001EF210163BE07A3E7FEE /* Pods-MovieWebServiceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovieWebServiceTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAD11121779C41470CB8859596DABBDC /* Pods-MovieWebServiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7E1C5C331A4A7EA2278932D63752C67 /* Pods-MovieWebServiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovieWebServiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,14 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A64E22ADD4BFED1F6D348BB21179CBE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AB1156810C27F33FC32833E0B91F141 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4AD0A88E71B3B615FE1C6D0B576B0893 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,89 +84,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+		A5F6FED6C9DC49256437600DA5C7466F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
-				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+				71EF9501C75D82D3F6C46D553B2DD17B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06ABEE9C39B3751D885364B314BA34AD /* Pods-MovieWebServiceUITests */ = {
+		090D6EC9F494A3A0C9DF00D0B61E8738 /* Pods-MovieWebService */ = {
 			isa = PBXGroup;
 			children = (
-				D970DAD2764A50C50AD63DF843065C2B /* Pods-MovieWebServiceUITests.modulemap */,
-				95FED91C0AFF4E3F659A003564BEE835 /* Pods-MovieWebServiceUITests-acknowledgements.markdown */,
-				91328DE17D7F96548422168CDB60F867 /* Pods-MovieWebServiceUITests-acknowledgements.plist */,
-				12F40E6898596566B2499AD619135D2D /* Pods-MovieWebServiceUITests-dummy.m */,
-				660537D0791111B055F9EC7306C0FAB3 /* Pods-MovieWebServiceUITests-Info.plist */,
-				EC2498FDC36A4284EC37BBA02259833E /* Pods-MovieWebServiceUITests-umbrella.h */,
-				4393EE17B78CC9F08F0E7D1A93814F0D /* Pods-MovieWebServiceUITests.debug.xcconfig */,
-				05F147527080B2F427B55CBFA537C0A0 /* Pods-MovieWebServiceUITests.release.xcconfig */,
-			);
-			name = "Pods-MovieWebServiceUITests";
-			path = "Target Support Files/Pods-MovieWebServiceUITests";
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		38A21960AB14879DD68C9E59B81E7952 /* Pods-MovieWebService */ = {
-			isa = PBXGroup;
-			children = (
-				17FEB1B077A738F603B42A371C3F0642 /* Pods-MovieWebService.modulemap */,
-				86D02E0702971C69596130EA08EA6445 /* Pods-MovieWebService-acknowledgements.markdown */,
-				547281D403FADC65241697CAFBD0C4CD /* Pods-MovieWebService-acknowledgements.plist */,
-				3863C91CA3134FDE12CEC41B2B1C58CB /* Pods-MovieWebService-dummy.m */,
-				2AD915BB4974CDA6A797F0E83C810FB3 /* Pods-MovieWebService-frameworks.sh */,
-				CB925F5F92CA2A4FF7E94A2671912D66 /* Pods-MovieWebService-Info.plist */,
-				5FA294919710C4608167A196FAB9DE6A /* Pods-MovieWebService-umbrella.h */,
-				0A381A24BC831E30974E9706AF0DBAC7 /* Pods-MovieWebService.debug.xcconfig */,
-				389EB2F7B600BDC17BC900D27CD441C0 /* Pods-MovieWebService.release.xcconfig */,
+				1555E6942D2CEA5AB8602538D3EF6E1A /* Pods-MovieWebService.modulemap */,
+				03BBCEC22F7A1D4DA3D12B92CE0A7E09 /* Pods-MovieWebService-acknowledgements.markdown */,
+				BF0732019616B17AC0CE99865E4E6AB7 /* Pods-MovieWebService-acknowledgements.plist */,
+				85D8255C85123DBB032E1B4E468D83C8 /* Pods-MovieWebService-dummy.m */,
+				B733E57E53CB0C9936D3D97E30BD388F /* Pods-MovieWebService-Info.plist */,
+				394003C5282C46BAB453080B6FADD811 /* Pods-MovieWebService-umbrella.h */,
+				15968D3F7AEA01D6C8C04758279AC613 /* Pods-MovieWebService.debug.xcconfig */,
+				BC5041AAEABFBD71BB88B821FC83F956 /* Pods-MovieWebService.release.xcconfig */,
 			);
 			name = "Pods-MovieWebService";
 			path = "Target Support Files/Pods-MovieWebService";
 			sourceTree = "<group>";
 		};
-		609C854091B6E9A78F0250EF40E332EA /* Targets Support Files */ = {
+		1320B70F3A240F37F1DB58C533CEAB07 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				38A21960AB14879DD68C9E59B81E7952 /* Pods-MovieWebService */,
-				6267A0F987C96BE15437E530A586FD0E /* Pods-MovieWebServiceTests */,
-				06ABEE9C39B3751D885364B314BA34AD /* Pods-MovieWebServiceUITests */,
+				090D6EC9F494A3A0C9DF00D0B61E8738 /* Pods-MovieWebService */,
+				9FF611322C8B57B392D1422F8C71FA6C /* Pods-MovieWebServiceTests */,
+				B93C45F02E809AD4D6CCFF01BC21C5B2 /* Pods-MovieWebServiceUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6267A0F987C96BE15437E530A586FD0E /* Pods-MovieWebServiceTests */ = {
+		780A196F991A832E4DB50B77B96AAC09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DEBF839EF96B1A913D9C87CA5090909 /* Pods-MovieWebServiceTests.modulemap */,
-				3650702A074359FE136FDC6A3E7ADB4E /* Pods-MovieWebServiceTests-acknowledgements.markdown */,
-				06F89E696021163374D319E12A0934C4 /* Pods-MovieWebServiceTests-acknowledgements.plist */,
-				F2CBD1F655E478A66389FDAF71EAB729 /* Pods-MovieWebServiceTests-dummy.m */,
-				9140E3FAD290A3FACFF48ED0A6D28405 /* Pods-MovieWebServiceTests-Info.plist */,
-				FD3A6E0A40B1981BE1CA6FD7CF45C683 /* Pods-MovieWebServiceTests-umbrella.h */,
-				A1EFBAE0685F8582815B1CB9A9CAE8DE /* Pods-MovieWebServiceTests.debug.xcconfig */,
-				E262D2EB2AA4D90DF4CDCE536C70CEAD /* Pods-MovieWebServiceTests.release.xcconfig */,
-			);
-			name = "Pods-MovieWebServiceTests";
-			path = "Target Support Files/Pods-MovieWebServiceTests";
-			sourceTree = "<group>";
-		};
-		62754DA9F2AE55164FCA7E2E612A3EB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
 				4DE3D65F63C13E53D064F2EF8E506889 /* Pods_MovieWebService.framework */,
 				52AABAD590DC81059F1BEC4B13DA8DE4 /* Pods_MovieWebServiceTests.framework */,
 				9FD10C0D65EF5F9E7113680CCFD34765 /* Pods_MovieWebServiceUITests.framework */,
@@ -252,105 +131,72 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
+		9FF611322C8B57B392D1422F8C71FA6C /* Pods-MovieWebServiceTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
-				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
-				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
-				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
-				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
-				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
-				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
-				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
-				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
-				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
-				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
-				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
-				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
-				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
-				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
-				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
-				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
-				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
-				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
-				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
-				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
-				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
-				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
-				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
-				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
+				8C787AE12F82AB44DFB22E1BDBCDA760 /* Pods-MovieWebServiceTests.modulemap */,
+				1AD62D0C34C541B97276258A4762AE4E /* Pods-MovieWebServiceTests-acknowledgements.markdown */,
+				DB2E4F972D001EF210163BE07A3E7FEE /* Pods-MovieWebServiceTests-acknowledgements.plist */,
+				61E3C5FCFBEC3A5026CA2F3DBF7EFCD3 /* Pods-MovieWebServiceTests-dummy.m */,
+				7293F42937DDFF57694F9FBCBE4F3345 /* Pods-MovieWebServiceTests-Info.plist */,
+				A906C812098E32925DC2BE2B17CD3E34 /* Pods-MovieWebServiceTests-umbrella.h */,
+				33B37BBF3FA9FF8D38B9B9BB76FA68B4 /* Pods-MovieWebServiceTests.debug.xcconfig */,
+				1338CB8C2D7281A382F95ABFF78F2B64 /* Pods-MovieWebServiceTests.release.xcconfig */,
 			);
-			name = Masonry;
-			path = Masonry;
+			name = "Pods-MovieWebServiceTests";
+			path = "Target Support Files/Pods-MovieWebServiceTests";
 			sourceTree = "<group>";
 		};
-		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+		B93C45F02E809AD4D6CCFF01BC21C5B2 /* Pods-MovieWebServiceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+				CA86095DAFB0C99145A814B0C0AEB5DC /* Pods-MovieWebServiceUITests.modulemap */,
+				7A5855425DAD2983EEA3E5EC20A98CAD /* Pods-MovieWebServiceUITests-acknowledgements.markdown */,
+				B99AF93BC5271A427B5313BC4761A3B3 /* Pods-MovieWebServiceUITests-acknowledgements.plist */,
+				854885FC02FD60CBCD1BD5CC47D457CB /* Pods-MovieWebServiceUITests-dummy.m */,
+				984B040FC54A72EE5DE25D4F775B088C /* Pods-MovieWebServiceUITests-Info.plist */,
+				BA93C86893F2A209CC511E6722269EF5 /* Pods-MovieWebServiceUITests-umbrella.h */,
+				F7E1C5C331A4A7EA2278932D63752C67 /* Pods-MovieWebServiceUITests.debug.xcconfig */,
+				EAD11121779C41470CB8859596DABBDC /* Pods-MovieWebServiceUITests.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-MovieWebServiceUITests";
+			path = "Target Support Files/Pods-MovieWebServiceUITests";
 			sourceTree = "<group>";
 		};
-		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
-				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
-				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
-				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
-				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
-				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				62754DA9F2AE55164FCA7E2E612A3EB7 /* Products */,
-				609C854091B6E9A78F0250EF40E332EA /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				780A196F991A832E4DB50B77B96AAC09 /* Products */,
+				1320B70F3A240F37F1DB58C533CEAB07 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+		6681AE17A76F5E9FB678184BEAD4C991 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
-				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
-				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
-				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
-				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
-				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
-				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
-				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
-				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
-				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
-				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
-				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
-				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
-				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
-				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+				149B3CFEF41FAE48B6E0518CB49D81A9 /* Pods-MovieWebService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,14 +205,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB194E415DD693CF003D3B6C4AC8866 /* Pods-MovieWebServiceTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7783ACFAE4647756BA07CF55B78285A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CF07A30799FEF01F95E973582FE1172 /* Pods-MovieWebService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,37 +257,18 @@
 			productReference = 52AABAD590DC81059F1BEC4B13DA8DE4 /* Pods_MovieWebServiceTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
-				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
-				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
-				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Masonry;
-			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		EF6149281D50A94EEEDDD12C3E7AFFC5 /* Pods-MovieWebService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F494EBDA885B53268C1FA3857678A4E1 /* Build configuration list for PBXNativeTarget "Pods-MovieWebService" */;
+			buildConfigurationList = BDE2A43A3BD37CCBB8F10CEE6EDBE5DD /* Build configuration list for PBXNativeTarget "Pods-MovieWebService" */;
 			buildPhases = (
-				C7783ACFAE4647756BA07CF55B78285A /* Headers */,
-				6E9C7B21DCB452D315835486B2443E82 /* Sources */,
-				3A64E22ADD4BFED1F6D348BB21179CBE /* Frameworks */,
-				A5D7A3C8FCFEF585445747DE2FE98421 /* Resources */,
+				6681AE17A76F5E9FB678184BEAD4C991 /* Headers */,
+				B46AE248D4CCCA215FC4A3BA4C1DF513 /* Sources */,
+				A5F6FED6C9DC49256437600DA5C7466F /* Frameworks */,
+				21CF305F0B6B707847D753B014959681 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				41748B5D9C71E277E2E3F2EF5BA5EE6F /* PBXTargetDependency */,
 			);
 			name = "Pods-MovieWebService";
 			productName = "Pods-MovieWebService";
@@ -474,11 +293,10 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 62754DA9F2AE55164FCA7E2E612A3EB7 /* Products */;
+			productRefGroup = 780A196F991A832E4DB50B77B96AAC09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				EF6149281D50A94EEEDDD12C3E7AFFC5 /* Pods-MovieWebService */,
 				54166D9300271657D49FAC1235093A4B /* Pods-MovieWebServiceTests */,
 				3CAE22EB74F73CFEC462B3744E0E1BC1 /* Pods-MovieWebServiceUITests */,
@@ -494,14 +312,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5D7A3C8FCFEF585445747DE2FE98421 /* Resources */ = {
+		21CF305F0B6B707847D753B014959681 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,37 +329,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
-				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
-				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
-				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
-				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
-				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
-				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
-				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
-				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
-				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E9C7B21DCB452D315835486B2443E82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58B7D6F30F22F513B35C54C9B5723FF7 /* Pods-MovieWebService-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94777F357124733A899378D888565AC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D1417C7A61B8EE77E6D9EA162CB34882 /* Pods-MovieWebServiceTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46AE248D4CCCA215FC4A3BA4C1DF513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5F443BAA33FBDF455E1192838E0E74 /* Pods-MovieWebService-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,12 +356,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41748B5D9C71E277E2E3F2EF5BA5EE6F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 1916749027B47526304C6E3ED155074B /* PBXContainerItemProxy */;
-		};
 		5EC4F30D082427FD507C5759413815E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MovieWebService";
@@ -586,7 +373,7 @@
 /* Begin XCBuildConfiguration section */
 		04FAA12B2851C483D854DCF50B7D1723 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05F147527080B2F427B55CBFA537C0A0 /* Pods-MovieWebServiceUITests.release.xcconfig */;
+			baseConfigurationReference = EAD11121779C41470CB8859596DABBDC /* Pods-MovieWebServiceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -618,9 +405,9 @@
 			};
 			name = Release;
 		};
-		5E83B20C6C80D53DFC38A29FCF2A5AAE /* Release */ = {
+		114F5E4360CD57840A11C30538496B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 389EB2F7B600BDC17BC900D27CD441C0 /* Pods-MovieWebService.release.xcconfig */;
+			baseConfigurationReference = 15968D3F7AEA01D6C8C04758279AC613 /* Pods-MovieWebService.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -646,15 +433,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		70805379E64B20B92C23DBD2FD1EEA58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4393EE17B78CC9F08F0E7D1A93814F0D /* Pods-MovieWebServiceUITests.debug.xcconfig */;
+			baseConfigurationReference = F7E1C5C331A4A7EA2278932D63752C67 /* Pods-MovieWebServiceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -679,69 +465,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7C54DF562A5A621C6D0BDC51476A5F25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		800782E89E971EE98BAE456A16E0A0F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -872,9 +595,9 @@
 			};
 			name = Debug;
 		};
-		9D658807A75485A5C4D9BD49CAA3C924 /* Debug */ = {
+		A6E95816750DF70EDAA79E5F37DC0070 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A381A24BC831E30974E9706AF0DBAC7 /* Pods-MovieWebService.debug.xcconfig */;
+			baseConfigurationReference = BC5041AAEABFBD71BB88B821FC83F956 /* Pods-MovieWebService.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -900,14 +623,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		BB769B1423DDB70606AD376018E502CA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1EFBAE0685F8582815B1CB9A9CAE8DE /* Pods-MovieWebServiceTests.debug.xcconfig */;
+			baseConfigurationReference = 33B37BBF3FA9FF8D38B9B9BB76FA68B4 /* Pods-MovieWebServiceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -940,7 +664,7 @@
 		};
 		D94DC2787F1C32974177D3D90B424F2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E262D2EB2AA4D90DF4CDCE536C70CEAD /* Pods-MovieWebServiceTests.release.xcconfig */;
+			baseConfigurationReference = 1338CB8C2D7281A382F95ABFF78F2B64 /* Pods-MovieWebServiceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -993,11 +717,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		BDE2A43A3BD37CCBB8F10CEE6EDBE5DD /* Build configuration list for PBXNativeTarget "Pods-MovieWebService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				800782E89E971EE98BAE456A16E0A0F6 /* Debug */,
-				7C54DF562A5A621C6D0BDC51476A5F25 /* Release */,
+				114F5E4360CD57840A11C30538496B04 /* Debug */,
+				A6E95816750DF70EDAA79E5F37DC0070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1007,15 +731,6 @@
 			buildConfigurations = (
 				BB769B1423DDB70606AD376018E502CA /* Debug */,
 				D94DC2787F1C32974177D3D90B424F2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F494EBDA885B53268C1FA3857678A4E1 /* Build configuration list for PBXNativeTarget "Pods-MovieWebService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D658807A75485A5C4D9BD49CAA3C924 /* Debug */,
-				5E83B20C6C80D53DFC38A29FCF2A5AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

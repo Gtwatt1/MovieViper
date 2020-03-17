@@ -6,7 +6,6 @@ target ‘MovieWebService’ do
   use_frameworks!
 
   # Pods for MovieWebService
-  pod ‘Masonry’
 
   target ‘MovieWebServiceTests' do
     inherit! :search_paths

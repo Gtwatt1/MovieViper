@@ -14,11 +14,7 @@
 #import "MovieWebService-Swift.h"
 
 
-@implementation MoviesListViewController{
-
-    UITableView *tableView;
-    NSArray *filmList;
-}
+@implementation MoviesListViewController
 
 #pragma mark - Life cycle
 
@@ -29,7 +25,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return  filmList.count;
+    return  self.filmList.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -38,7 +34,7 @@
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"CellTableViewCell" owner:self options:nil] firstObject];
     }
-    DisplayFilm *film = [filmList objectAtIndex:indexPath.row];
+    DisplayFilm *film = [self.filmList objectAtIndex:indexPath.row];
     cell.name.text = film.name;
     cell.date.text = film.date;
     cell.filmRating.text = film.ratingString;
@@ -48,9 +44,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [self.output showFilmDetails:indexPath.row];
+    [self showFilmDetails:indexPath.row];
 }
 
+- (void)showFilmDetails:(NSInteger)index{
+    [self.output showFilmDetails:index];
+}
 
 
 #pragma mark - MoviesListViewInput
@@ -58,20 +57,20 @@
 - (void)setupInitialState {
     self.navigationItem.title = @"RootViewController";
     
-    tableView = [UITableView new];
-    [self.view addSubview:tableView];
-    tableView.backgroundColor = [UIColor whiteColor];
+    self.tableView = [UITableView new];
+    [self.view addSubview:self.tableView];
+    self.tableView.backgroundColor = [UIColor whiteColor];
 
-    tableView.delegate = self;
-    tableView.dataSource = self;
-    tableView.estimatedRowHeight = 100.0;
-    tableView.rowHeight = UITableViewAutomaticDimension;
-    tableView.translatesAutoresizingMaskIntoConstraints = false;
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.estimatedRowHeight = 100.0;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.translatesAutoresizingMaskIntoConstraints = false;
     
-    [tableView.leftAnchor constraintEqualToAnchor:self.view.leftAnchor].active = YES;
-    [tableView.topAnchor constraintEqualToAnchor:self.view.topAnchor].active = YES;
-    [tableView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor].active = YES;
-    [tableView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor].active = YES;
+    [self.tableView.leftAnchor constraintEqualToAnchor:self.view.leftAnchor].active = YES;
+    [self.tableView.topAnchor constraintEqualToAnchor:self.view.topAnchor].active = YES;
+    [self.tableView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor].active = YES;
+    [self.tableView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor].active = YES;
 
 
 }
@@ -79,8 +78,8 @@
 
 -(void)showFilms:(NSArray *)films{
     dispatch_async(dispatch_get_main_queue(), ^{
-        filmList = films;
-       [tableView reloadData];
+        self.filmList = films;
+       [self.tableView reloadData];
     });
 }
 @end

@@ -41,7 +41,6 @@ class DetailsInteractorTests: XCTestCase {
     func testDidAskPresenterToDisplayCast(){
         output.didGetCast([Actor()])
         XCTAssertTrue(output.didPresentCast)
-
     }
     // MARK: - Mock
 

@@ -17,4 +17,10 @@
 
 @property (nonatomic, strong) id<MoviesListViewOutput> output;
 
+@property (nonatomic, strong)  UITableView *tableView;
+@property (nonatomic, strong)  NSArray *filmList;
+
+- (void)showFilmDetails:(NSInteger)index;
+
+
 @end
