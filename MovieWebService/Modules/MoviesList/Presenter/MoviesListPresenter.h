@@ -21,7 +21,6 @@
 @property (nonatomic, strong) id<MoviesListInteractorInput> interactor;
 @property (nonatomic, strong) id<MoviesListRouterInput> router;
 
-@property (nonatomic, strong)   NSDateFormatter*  dateFormatter;
 
 - (DisplayFilm *)filmToDisplayFilm:(Film *)film;
 

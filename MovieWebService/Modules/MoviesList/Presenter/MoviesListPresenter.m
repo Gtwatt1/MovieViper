@@ -13,8 +13,13 @@
 #import "MoviesListRouterInput.h"
 #import "MovieWebService-Swift.h"
 
+@interface MoviesListPresenter ()
+    @property (nonatomic, strong)   NSDateFormatter*  dateFormatter;
+
+@end
 @implementation MoviesListPresenter {
     NSArray *films;
+
 }
 
 - (void)configureModule {

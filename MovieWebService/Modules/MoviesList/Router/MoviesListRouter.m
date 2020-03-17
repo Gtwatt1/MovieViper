@@ -17,7 +17,9 @@
 
 - (void)showFilmDetail:(Film *)film {
     DetailsModuleBuilder *builder = [DetailsModuleBuilder new];
-    [self.viewController.navigationController pushViewController:[builder buildWith:film] animated:YES];
+    UIViewController *detailViewController = [builder buildWith:film];
+
+    [self.viewController.navigationController pushViewController:detailViewController animated:YES];
 }
 
 @end
