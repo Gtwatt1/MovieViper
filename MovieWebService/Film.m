@@ -15,31 +15,25 @@
 - (id)initWithData:(NSDictionary *)data {
     self = [super init];
     if (self) {
-        self.filmRating = [[data objectForKey:@"filmRating"] doubleValue];
-        self.languages = [data objectForKey:@"languages"];
-        [self setNominated:[[data objectForKey:@"nominated"] boolValue]];
-        self.releaseDate = [NSDate dateWithTimeIntervalSince1970:[[data objectForKey:@"releaseDate"] doubleValue]];
-        self.name = [data objectForKey:@"name"];
-        self.rating = [[data objectForKey:@"rating"] doubleValue];
-        self.director = [[Director alloc] initWithData:[data objectForKey:@"director"]];
+        _filmRating = [[data objectForKey:@"filmRating"] doubleValue];
+        _languages = [data objectForKey:@"languages"];
+        _nominated = [[data objectForKey:@"nominated"] boolValue];
+        _releaseDate = [NSDate dateWithTimeIntervalSince1970:[[data objectForKey:@"releaseDate"] doubleValue]];
+        _name = [data objectForKey:@"name"];
+        _rating = [[data objectForKey:@"rating"] doubleValue];
+        _director = [[Director alloc] initWithData:[data objectForKey:@"director"] withFilm:self];
         NSMutableArray *castsList = [[NSMutableArray alloc]init];
         NSArray *castsData = [data objectForKey:@"cast"];
         for (NSDictionary *castData in castsData) {
-            Actor *actor = [[Actor alloc] initWithData:castData];
-            actor.film = self;
+            Actor *actor = [[Actor alloc] initWithData:castData withFilm:self];
             [castsList addObject:actor];
         }
-        self.cast = castsList;
-//        [castsList removeAllObjects];
+        _cast = [castsList copy];
+        [castsList removeAllObjects];
     }
     return self;
 }
 
 
-
-- (void)setNominated:(BOOL)nominate;
-{
-    nominated = nominate;
-}
 
 @end

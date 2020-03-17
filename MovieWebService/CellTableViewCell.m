@@ -8,17 +8,23 @@
 
 #import "CellTableViewCell.h"
 
+@interface CellTableViewCell()
+@property (strong, nonatomic) IBOutlet UILabel *name;
+@property (strong, nonatomic) IBOutlet UILabel *date;
+@property (strong, nonatomic) IBOutlet UILabel *filmRating;
+@property (strong, nonatomic) IBOutlet UILabel *rating;
+
+@end
+
 @implementation CellTableViewCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (void)setCellLabels:(DisplayFilm *)displayFilm{
+    
+    self.name.text = displayFilm.name;
+    self.date.text = displayFilm.date;
+    self.filmRating.text = displayFilm.ratingString;
+    self.rating.text = displayFilm.rating;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
-}
 
 @end

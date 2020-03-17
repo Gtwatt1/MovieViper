@@ -11,8 +11,8 @@
 
 @interface Actor : GenericRole
 
-@property (nonatomic, strong) NSString *screenName;
+@property (nonatomic, copy, readonly) NSString *screenName;
 
-- (id)initWithData:(NSDictionary *)data;
+- (id)initWithData:(NSDictionary *)data withFilm:(Film *) film;
 
 @end

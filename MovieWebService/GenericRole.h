@@ -12,13 +12,13 @@
 
 @interface GenericRole : NSObject
 
-@property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *biography;
-@property (nonatomic, strong) NSDate *dateOfBirth;
-@property (nonatomic) BOOL nominated;
+@property (nonatomic, copy, readonly) NSString *name;
+@property (nonatomic, copy, readonly) NSString *biography;
+@property (nonatomic, strong, readonly) NSDate *dateOfBirth;
+@property (nonatomic, readonly) BOOL nominated;
 
-@property (atomic, weak) Film *film;
+@property (atomic, weak, readonly) Film *film;
 
-- (id)initWithData:(NSDictionary *)data;
+- (id)initWithData:(NSDictionary *)data withFilm:(Film *)film;
 
 @end

@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MovieWebService-Swift.h"
 
 @interface CellTableViewCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet UILabel *name;
-@property (strong, nonatomic) IBOutlet UILabel *date;
-@property (strong, nonatomic) IBOutlet UILabel *filmRating;
-@property (strong, nonatomic) IBOutlet UILabel *rating;
+
+- (void)setCellLabels:(DisplayFilm *)displayFilm;
+
 
 @end

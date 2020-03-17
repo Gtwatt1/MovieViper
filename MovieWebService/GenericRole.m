@@ -10,12 +10,13 @@
 
 @implementation GenericRole
 
-- (id)initWithData:(NSDictionary *)data {
+- (id)initWithData:(NSDictionary *)data withFilm:(Film *)film{
     if (self) {
-        self.name = [data objectForKey:@"name"];
-        self.biography = [data objectForKey:@"biography"];
-        self.dateOfBirth = [NSDate dateWithTimeIntervalSince1970:[[data objectForKey:@"dateOfBirth"] doubleValue]];
-        self.nominated = [[data objectForKey:@"nominated"] boolValue];
+        _name = [data objectForKey:@"name"];
+        _biography = [data objectForKey:@"biography"];
+        _dateOfBirth = [NSDate dateWithTimeIntervalSince1970:[[data objectForKey:@"dateOfBirth"] doubleValue]];
+        _nominated = [[data objectForKey:@"nominated"] boolValue];
+        _film = film;
     }
     return self;
 }

@@ -34,11 +34,9 @@
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"CellTableViewCell" owner:self options:nil] firstObject];
     }
-    DisplayFilm *film = [self.filmList objectAtIndex:indexPath.row];
-    cell.name.text = film.name;
-    cell.date.text = film.date;
-    cell.filmRating.text = film.ratingString;
-    cell.rating.text = film.rating;
+    DisplayFilm *displayFilm = [self.filmList objectAtIndex:indexPath.row];
+    [cell setCellLabels:displayFilm];
+    
     return cell;
 }
 
