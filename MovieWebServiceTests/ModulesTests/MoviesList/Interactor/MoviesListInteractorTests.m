@@ -41,4 +41,10 @@
     [super tearDown];
 }
 
+
+- (void) testOutputCalledAfterFecthingFilm{
+    [[self.mockOutput expect] didRetrieveFilm:[OCMArg any]];
+    [self.interactor fetchFilms];
+    [self.mockOutput verifyWithDelay:1];
+}
 @end

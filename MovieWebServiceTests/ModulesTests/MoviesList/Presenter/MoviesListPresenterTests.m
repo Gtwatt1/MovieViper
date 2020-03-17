@@ -14,6 +14,8 @@
 #import "MoviesListViewInput.h"
 #import "MoviesListInteractorInput.h"
 #import "MoviesListRouterInput.h"
+#import "MovieWebService-Swift.h"
+
 
 @interface MoviesListPresenterTests : XCTestCase
 
@@ -64,4 +66,46 @@
     OCMVerify([self.mockView setupInitialState]);
 }
 
+- (void)testViewIsCalledAfterRetrievingFilms {
+    // given
+
+
+    // when
+    Film *film = [Film new];
+    [self.presenter didRetrieveFilm:film];
+
+    // then
+    OCMVerify([self.mockView showFilms:[OCMArg any]]);
+}
+
+
+- (void)testFetchOrderWhenViewReady{
+    [self.presenter didTriggerViewReadyEvent];
+
+    OCMVerify([self.mockInteractor fetchFilms]);
+}
+
+-(void)testRouterIsCalledWhenDisplayDetails{
+    [self.presenter showFilmDetails:0];
+
+    OCMVerify([self.mockRouter showFilmDetail:[OCMArg any]]);
+}
+
+-(void)testFilmToDisplayFilm{
+    Film *film = [Film new];
+    film.name = @"Joseph one";
+    film.releaseDate = [NSDate dateWithTimeIntervalSince1970:[@1350000000 doubleValue]]; 
+    film.rating = [@7.8 doubleValue];
+    film.filmRating = [@3 intValue];
+
+    DisplayFilm *displayFilm = [self.presenter filmToDisplayFilm:film];
+    
+    XCTAssertEqual(displayFilm.name, film.name);
+    XCTAssertTrue([displayFilm.rating isEqualToString: @"7.8"]);
+    XCTAssertTrue([displayFilm.ratingString isEqualToString: @"R"]);
+    NSLog(@"mad %@",displayFilm.date);
+    XCTAssertTrue([displayFilm.date isEqualToString: @"Oct 12, 2012"]);
+
+    
+}
 @end

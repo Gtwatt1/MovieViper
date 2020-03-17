@@ -51,4 +51,18 @@
 	OCMVerify([self.mockOutput didTriggerViewReadyEvent]);
 }
 
+//- (void)testShouldFetchFilmOnDidLoad{
+//    
+//    [[self.mockOutput expect] fetchFilms];
+//
+//    [self.controller viewDidLoad];
+////    [self.mockOutput fetchFilms];
+//    
+//    [self.mockOutput verify];
+//    
+//    
+//}
+
+
+
 @end

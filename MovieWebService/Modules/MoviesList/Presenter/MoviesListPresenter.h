@@ -10,6 +10,7 @@
 #import "MoviesListInteractorOutput.h"
 #import "MoviesListModuleInput.h"
 
+@class DisplayFilm;
 @protocol MoviesListViewInput;
 @protocol MoviesListInteractorInput;
 @protocol MoviesListRouterInput;
@@ -21,6 +22,12 @@
 @property (nonatomic, strong) id<MoviesListRouterInput> router;
 
 @property (nonatomic, strong)   NSDateFormatter*  dateFormatter;
+
+- (DisplayFilm *)filmToDisplayFilm:(Film *)film;
+
+
+
+
 
 
 @end

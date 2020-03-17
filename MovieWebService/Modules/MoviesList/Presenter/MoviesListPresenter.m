@@ -22,6 +22,11 @@
 
 - (void)didTriggerViewReadyEvent {
 	[self.view setupInitialState];
+    [self fetchFilms];
+}
+
+
+- (void) fetchFilms{
     [self.interactor fetchFilms];
 }
 
@@ -71,7 +76,10 @@
 
 - (void)showFilmDetails:(NSInteger)index{
     Film *film = [films objectAtIndex:index];
-    [self.router showFilmDetails:film];
+    [self.router showFilmDetail:film];
 }
+
+
+
 
 @end

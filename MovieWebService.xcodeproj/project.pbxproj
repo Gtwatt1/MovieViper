@@ -38,6 +38,7 @@
 		8FB46F22241F55B000692510 /* MovieFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB46F21241F55B000692510 /* MovieFile.m */; };
 		8FB46F24241F62EF00692510 /* DisplayFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB46F23241F62EF00692510 /* DisplayFilm.swift */; };
 		8FD148262420065700E23518 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD148252420065700E23518 /* libOCMock.a */; };
+		8FD148272420C52B00E23518 /* DisplayFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB46F23241F62EF00692510 /* DisplayFilm.swift */; };
 		90DA19CFA1BC8F9001F66546 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6A3D5C79D0DBE63886184F /* DetailsRouter.swift */; };
 		9719FBB21151E7A3416388B9 /* Pods_MovieWebServiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CE2FAEE24F90800F730771 /* Pods_MovieWebServiceUITests.framework */; };
 		98DCD8E1A77375C8D2741246 /* Pods_MovieWebServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570604DAB816B8F590CE6A19 /* Pods_MovieWebServiceTests.framework */; };
@@ -839,6 +840,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				742C64031E9C750700B8E327 /* MovieWebServiceTests.m in Sources */,
+				8FD148272420C52B00E23518 /* DisplayFilm.swift in Sources */,
 				2D83F1C19B23D02737F9607E /* MoviesListViewControllerTests.m in Sources */,
 				B1ECDB0D319AC25FF7CDE7A3 /* MoviesListPresenterTests.m in Sources */,
 				1DA435E4F744A94268F376F0 /* MoviesListInteractorTests.m in Sources */,
@@ -1019,7 +1021,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestHelper\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/TestHelper\"",
+					"$(SRCROOT)/MovieWebService/Movie-Bridging-Header.h",
+					$CONFIGURATION_TEMP_DIR/YourProject.build/DerivedSources,
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"\n\n\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"\n\n\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"\n\n$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 				INFOPLIST_FILE = MovieWebServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1043,7 +1050,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TestHelper\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/TestHelper\"",
+					"$(SRCROOT)/MovieWebService/Movie-Bridging-Header.h",
+					$CONFIGURATION_TEMP_DIR/YourProject.build/DerivedSources,
+					"\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"\n\n\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"\n\n\"$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources\"\n\n$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources",
+				);
 				INFOPLIST_FILE = MovieWebServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

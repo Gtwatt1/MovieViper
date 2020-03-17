@@ -15,7 +15,7 @@
 
 #pragma mark - MoviesListRouterInput
 
-- (void)showFilmDetails:(Film *)film {
+- (void)showFilmDetail:(Film *)film {
     DetailsModuleBuilder *builder = [DetailsModuleBuilder new];
     [self.viewController.navigationController pushViewController:[builder buildWith:film] animated:YES];
 }

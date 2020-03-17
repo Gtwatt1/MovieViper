@@ -10,6 +10,6 @@
 #import "Film.h"
 
 @protocol MoviesListRouterInput <NSObject>
-- (void)showFilmDetails:(Film *)film;
+- (void)showFilmDetail:(Film *)film;
 
 @end
