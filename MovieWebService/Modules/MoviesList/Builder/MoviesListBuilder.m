@@ -15,6 +15,9 @@
 
 @implementation MoviesListBuilder
 
+    static NSString *MoviesListControllerIdentifier = @"MoviesListController";
+
+
 - (UIViewController *)build {
     
     MoviesListViewController *viewController = [MoviesListViewController new];
@@ -33,8 +36,21 @@
     
     return viewController;
 
-    
+}
 
+- (MoviesListViewController *) setUpMovieListViewController{
+    UIStoryboard *storyboard = [self getMainStoryBoard];
+    MoviesListViewController *moviesListViewController =
+       [storyboard instantiateViewControllerWithIdentifier:MoviesListControllerIdentifier];
+       
+    return moviesListViewController;
+}
+
+-(UIStoryboard *) getMainStoryBoard{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main"
+                                                         bundle:[NSBundle mainBundle]];
+    
+    return storyboard;
 }
 
 @end
